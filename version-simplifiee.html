@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature proche de zero (version 2)</title>
+</head>
+
+<body>
+
+    <script>
+        var tableau = [5, -20, 5, 18, -7, 1, 2, -1, 58, 250];
+        var contenu = tableau.length;
+
+        if (contenu > 0) {
+            var result = tableau.sort((a, b) => Math.abs(a) - Math.abs(b) || b - a);
+
+            // Affichage
+            alert(result[0] || 0);
+
+        } else {
+            alert('pas de données!');
+        }
+    </script>
+
+</body>
+
+</html>
