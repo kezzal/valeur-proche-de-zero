@@ -5,28 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Temperature proche de zero 1</title>
+</head>
+
+<body>
 
     <script>
-        /*
-        
-        Ma logique avant codage
-        ***********************
-        
-            - J'ai mon tableau avec quelques données
-            - Je vérifie si mon contient des données. Si pas de données, j'affiche un alert('pas de données!')
-            - Le tableau contient des données, donc ma mission est de trouver la valeur la plus proche de 0.
-                - Je commence par une condition: 
-                    -> Si j'ai la valeur '0' dans le tableau donc la valeur la plus proche de 0 est 0!
-                    -> Si pas de '0' dans le tableau, je vais commencer par récupérer la valeur absolue la plus basse de toutes les valeurs existantes dans le tableau. Car c'est celle qui se rapproche le plus de 0 (Ex: +1 et -1)
-                       une fois la petite valeur absolue obtenue, je vais vérifier si elle existe en (valeur négative) dans le tableau. Pour cela, je crée une copie négative de la valeur obtenue et je la rechercher dans le tableau.
-                                                 
-                        a- Si la valeur négative existe dans mon tableau, donc:
-                        -> Soit j'ai 2 valeurs (une + et l'autre -), je chosis donc la + (Comme c'est demandé dans l'exercice)
-                        -> Soit j'ai qu'une seule valeur négative (transformée en +), je l'affiche donc en négative.
-                        b- Si pas de valeur négative, donc je n'ai qu'une seule valeur et elle est certainement positive!
-        
-        */
 
         var tableau = [5, -20, 5, 18, -7, 1, 2, -1, 58, 250];
 
@@ -57,29 +41,7 @@
         } else {
             alert('pas de données!');
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </script>
-</head>
-
-<body>
 
 </body>
 
